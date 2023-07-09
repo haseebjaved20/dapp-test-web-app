@@ -1,10 +1,15 @@
-import React from 'react'
-import ConnectWalletContent from '../../components/connect-wallet-page/ConnectWalletContent'
+//libraries
+import React from "react";
+import WalletSate from "../../store/Wallet/WalletState";
+//components
+import ConnectWalletContent from "../../components/connect-wallet-page/ConnectWalletContent";
 
 const ConnectWallet = () => {
   return (
-  <ConnectWalletContent />
-  )
-}
+    <WalletSate>
+      <ConnectWalletContent />
+    </WalletSate>
+  );
+};
 
-export default ConnectWallet
+export default ConnectWallet;
