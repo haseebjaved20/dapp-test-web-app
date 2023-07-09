@@ -1,8 +1,13 @@
+//libraries
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import "./App.css";
-import MainLayout from "./components/layouts/MainLayout";
+//pages
 import ConnectWallet from "./pages/connect-wallet/ConnectWallet";
+//components
+import MainLayout from "./components/layouts/MainLayout";
+//constants
 import { routes } from "./lib/utils/constants";
+//styles
+import "./App.css";
 
 const App = () => {
   return (
